@@ -7,6 +7,8 @@ const Color black = Color(0xff000000);
 const Color white = Colors.white;
 const Color grey = Color(0xff82868E);
 
+double edge = 24;
+
 TextStyle blackTextMedium = GoogleFonts.poppins(
   fontWeight: FontWeight.w500,
   color: black,
@@ -17,12 +19,17 @@ TextStyle whiteTextMedium = GoogleFonts.poppins(
   color: white,
 );
 
+TextStyle purpleTextMedium = GoogleFonts.poppins(
+  fontWeight: FontWeight.w500,
+  color: purple,
+);
+
 TextStyle greyTextLight = GoogleFonts.poppins(
   fontWeight: FontWeight.w300,
   color: grey,
 );
 
-TextStyle purpleTextMedium = GoogleFonts.poppins(
-  fontWeight: FontWeight.w500,
-  color: purple,
+TextStyle blackTextRegular = GoogleFonts.poppins(
+  fontWeight: FontWeight.w400,
+  color: black,
 );

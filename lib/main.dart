@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:cozy/pages/page_splash.dart';
 import 'package:flutter/material.dart';
 
